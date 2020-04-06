@@ -1,13 +1,19 @@
 Node-RED IBM Cloud Starter Application
 ====================================
 
+### Note
+**This repository includes the [IBM Watson IoT Platform Node-RD node](https://flows.nodered.org/node/node-red-contrib-scx-ibmiotapp) as default**
+
+\--  
+\--  
+
 
 ### Node-RED on IBM Cloud
 
 This repository is an example Node-RED application that can be deployed into
 IBM Cloud with only a couple clicks. Try it out for yourself right now by clicking:
 
-[![Deploy to IBM Cloud](https://cloud.ibm.com/devops/setup/deploy/button.png)](https://bluemix.net/deploy?repository=https://github.com/ibm/node-red-app)
+[![Deploy to IBM Cloud](https://cloud.ibm.com/devops/setup/deploy/button.png)](https://bluemix.net/deploy?repository=https://github.com/mbenav3/node-red-app)
 
 ### How does this work?
 

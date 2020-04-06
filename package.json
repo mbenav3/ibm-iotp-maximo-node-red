@@ -9,6 +9,7 @@
         "express": "4.x",
         "http-shutdown": "1.2.2",
         "node-red": "1.x",
+        "node-red-contrib-scx-ibmiotapp": "0.0.49",
         "node-red-node-cf-cloudant": "0.x",
         "node-red-node-openwhisk": "0.x",
         "node-red-node-watson": "0.x",
