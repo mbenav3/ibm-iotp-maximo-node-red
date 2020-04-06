@@ -2,7 +2,7 @@ Node-RED IBM Cloud Starter Application
 ====================================
 
 ### Note
-**This repository includes the [IBM Watson IoT Platform Node-RD node](https://flows.nodered.org/node/node-red-contrib-scx-ibmiotapp) as default**
+**This repository includes the [IBM Watson IoT Platform Node-RED node](https://flows.nodered.org/node/node-red-contrib-scx-ibmiotapp) as default**
 
 \--  
 \--  
@@ -30,7 +30,7 @@ to ensure your flow editor remains secure from unauthorised access.
 It includes a set of default flows that are automatically deployed the first time
 Node-RED runs.
 
-### Customising Node-RED
+### Customizing Node-RED
 
 This repository is here to be cloned, modified and re-used to allow anyone create
 their own Node-RED based application that can be quickly deployed to IBM Cloud.
