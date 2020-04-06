@@ -1,13 +1,12 @@
 Node-RED IBM Cloud Starter Application
 ====================================
 
-### Note
--- **This repository includes the [IBM Watson IoT Platform Node-RED node](https://flows.nodered.org/node/node-red-contrib-scx-ibmiotapp) as a default node in your palette**
+### :page_facing_up: Note
+**This repository creates an instance of Node-RED pre-loaded with the following nodes**  
 
--- **This repository includes the [Throttle Node-RED node](https://www.npmjs.com/package/node-red-contrib-throttle) as a default node in your palette**
+- [IBM Watson IoT Platform Node-RED node](https://flows.nodered.org/node/node-red-contrib-scx-ibmiotapp) as a default node in your palette
+- This repository includes the [Throttle Node-RED node](https://www.npmjs.com/package/node-red-contrib-throttle) as a default node in your palette
 
-\--  
-\--  
 
 
 ### Node-RED on IBM Cloud
