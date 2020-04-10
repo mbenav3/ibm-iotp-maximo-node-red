@@ -7,22 +7,20 @@ to Maximo. Again, the Maximo database was not designed to handle high
 traffic.
 
 **If you do not have an instance of Node-RED available, create one
-directly from the following repository:**
+directly using the following button:**
 
-<https://github.com/mbenav3/node-red-app/tree/master#node-red-on-ibm-cloud>
+[![Deploy to IBM Cloud](https://cloud.ibm.com/devops/setup/deploy/button.png)](https://bluemix.net/deploy?repository=https://github.com/mbenav3/ibm-iotp-maximo-node-red/tree/master/app)
 
-Note: This instance comes with the required nodes for this lab.
+Note: This repository will create an instance of Node-RED with the following nodes:  
+- **[IBM Watson IoT Platform Node-RED node](https://flows.nodered.org/node/node-red-contrib-scx-ibmiotapp)**
 
-**If you already have an instance, skip to step 9.**
+- **[Throttle Node-RED node](https://www.npmjs.com/package/node-red-contrib-throttle)**
 
-1.  Click on the *Deploy to IBM Cloud* button in the
+**If you already have an instance, skip to step 10.**
 
-![A picture containing bird Description automatically
-generated](./media/image1.png)
-
-2.  This button will take you to the IBM Cloud deployment configuration
-    to create your new Node-RED instance. You may be asked to sign in to
-    your IBM Cloud account.
+1.  Clicking the button above will take you to the IBM Cloud deployment configuration
+    page to help you create your new Node-RED instance. **You may be asked to sign in to
+    your IBM Cloud account.**
 
 3.  Verify that the *Region* and the *Organization* are set to where you
     want your instance deployed. Click on the Delivery Pipeline tab and
@@ -68,8 +66,7 @@ generated](./media/image7.png)
 
 10. Now that your Node-RED instance is ready, click on the *Visit App
     URL* on the top right section of your screen. Follow the wizard to
-    secure your application. **(Skip to step 13)  
-    **
+    secure your application. **(Skip to step 13)**
 
 11. From menu in the top right-hand corner, select **Manage Palette**.
     Click the **Install** tab and search **throttle**. Install the
@@ -85,9 +82,9 @@ generated](./media/image9.png)
 
 13. Navigate to an instance of Node-RED.
 
-14. Go to the following Box link: <https://ibm.box.com/v/apm-mahi-lab>
+14. Download the the IoT_platform_to_maximo
 
-15. Download the **Maximo\_Meter\_RESTAPI\_FS\_2020.json** file. Open
+15. Download the **[IoT Platform to Maximo JSON file](https://flows.nodered.org/node/node-red-contrib-scx-ibmiotapp)** file. Open
     the file in any Text Editor and copy the code. From the menu in the
     top right-hand corner, select **Import Clipboard** and paste the
     code. Click the **import** button. You should see 3 tabs, as shown
