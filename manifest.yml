@@ -1,0 +1,4 @@
+applications:
+  - name: ibm-iotp-maximo-node-red
+  - memory: 512M
+  
