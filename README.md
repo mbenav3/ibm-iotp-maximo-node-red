@@ -2,7 +2,6 @@
 logo](./media/image1.jpeg){width="2.3420931758530186in"
 height="1.11875in"}
 
-<<<<<<< Updated upstream
 ### :page_facing_up: Note
 **This repository creates an instance of Node-RED pre-loaded with the following nodes**  
 
@@ -10,10 +9,8 @@ height="1.11875in"}
 - This repository includes the [Throttle Node-RED node](https://www.npmjs.com/package/node-red-contrib-throttle) as a default node in your palette
 
 
-=======
  **Exercise 4-2: Connecting Using Node-RED & REST APIs**
 -------------------------------------------------------
->>>>>>> Stashed changes
 
 In this exercise, you will learn how to use Node-RED to build and POST
 sensor data to Maximo meters using REST APIs. The reason you are
@@ -26,11 +23,7 @@ traffic.
 **If you do not have an instance of Node-RED available, create one
 directly from the following repository:**
 
-<<<<<<< Updated upstream
-[![Deploy to IBM Cloud](https://cloud.ibm.com/devops/setup/deploy/button.png)](https://bluemix.net/deploy?repository=https://github.com/mbenav3/node-red-app)
-=======
-<https://github.com/mbenav3/node-red-app/tree/master#node-red-on-ibm-cloud>
->>>>>>> Stashed changes
+[![Deploy to IBM Cloud](https://cloud.ibm.com/devops/setup/deploy/button.png)](https://github.com/mbenav3/node-red-app/tree/master#node-red-on-ibm-cloud)
 
 Note: This instance comes with the required nodes for this lab.
 
@@ -46,13 +39,9 @@ height="0.7450273403324584in"}
     to create your new Node-RED instance. You may be asked to sign in to
     your IBM Cloud account.
 
-<<<<<<< Updated upstream
-### Customizing Node-RED
-=======
 3.  Verify that the *Region* and the *Organization* are set to where you
     want your instance deployed. Click on the Delivery Pipeline tab and
     click on the *New* button:
->>>>>>> Stashed changes
 
 ![A screenshot of a cell phone Description automatically
 generated](./media/image3.tiff){width="3.343727034120735in"
