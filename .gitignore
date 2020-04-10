@@ -1,8 +1,3 @@
 .DS_Store
 .vscode
-<<<<<<< Updated upstream
-
-node_modules
-=======
 docx_to_md.sh
->>>>>>> Stashed changes
