@@ -1,7 +1,3 @@
-![Image result for ibm logo](./media/image1.jpeg)
-
-##  **Exercise 4-2: Connecting Using Node-RED & REST APIs**
-
 In this exercise, you will learn how to use Node-RED to build and POST
 sensor data to Maximo meters using REST APIs. The reason you are
 learning this alternative method is because it is sometimes useful for
@@ -22,7 +18,7 @@ Note: This instance comes with the required nodes for this lab.
 1.  Click on the *Deploy to IBM Cloud* button in the
 
 ![A picture containing bird Description automatically
-generated](./media/image2.png)
+generated](./media/image1.png)
 
 2.  This button will take you to the IBM Cloud deployment configuration
     to create your new Node-RED instance. You may be asked to sign in to
@@ -33,13 +29,13 @@ generated](./media/image2.png)
     click on the *New* button:
 
 ![A screenshot of a cell phone Description automatically
-generated](./media/image3.tiff)
+generated](./media/image2.png)
 
 4.  Click the *OK* button on the *Create a new API key with full access*
     window.
 
 > ![A screenshot of a cell phone Description automatically
-> generated](./media/image4.tiff)
+> generated](./media/image3.png)
 
 5.  Verify that the Region, Organization, and Space are set to where you
     want your new instance deployed. Click the *Create* button on the
@@ -51,25 +47,24 @@ generated](./media/image3.tiff)
     deployment:
 
 ![A screenshot of a cell phone Description automatically
-generated](./media/image5.tiff)![A screenshot of a cell phone
-Description automatically generated](./media/image6.png)
+generated](./media/image4.png)
 
 7.  Your app is ready when the Build and Deploy stages are successfully
     executed: ![A screenshot of a social media post Description
-    automatically generated](./media/image7.png)
+    automatically generated](./media/image5.png)
 
 8.  Once both stages are successful, navigate back to your deployment
     Toolchain overview page using the breadcrumbs on the top left part
     of the page
 
 ![A screenshot of a cell phone Description automatically
-generated](./media/image8.tiff)
+generated](./media/image6.png)
 
 9.  Your Delivery Pipeline will now also indicate that the task was
     successfully executed.
 
 ![A screenshot of a cell phone Description automatically
-generated](./media/image9.tiff)
+generated](./media/image7.png)
 
 10. Now that your Node-RED instance is ready, click on the *Visit App
     URL* on the top right section of your screen. Follow the wizard to
@@ -80,57 +75,76 @@ generated](./media/image9.tiff)
     Click the **Install** tab and search **throttle**. Install the
     **node-red-contrib-throttle** node as shown in the image below:
 
-![A screenshot of a computer Description automatically
-generated](./media/image10.png)
+![A screenshot of a cell phone Description automatically
+generated](./media/image8.png)
 
 12. Repeat step 9 for the **node-red-contrib-scx-ibmiotapp** node.
 
-13. Navigate to an instance of Node-RED. Create a new canvas titled
-    **Maximo Meter REST API**.
+![A screenshot of a social media post Description automatically
+generated](./media/image9.png)
 
-14. Download the **Maximo\_Meter\_RESTAPI.json** file. Open the file in
-    any Text Editor and copy the code. From the menu in the top
-    right-hand corner, select **Import Clipboard** and paste the code.
+13. Navigate to an instance of Node-RED.
 
-> ![A screenshot of a cell phone Description automatically
-> generated](./media/image11.tiff)
+14. Go to the following Box link: <https://ibm.box.com/v/apm-mahi-lab>
 
-15. Open the **IoT PLATFORM** node and click the **Pencil Icon**. Enter
-    the credentials to your instance of the IoT Platform that you used
-    in Exercise 4-1 of the lab, Step 4. NOTE: URL is
-    \<org-id\>.messaging.internetofthings.ibmcloud.com
+15. Download the **Maximo\_Meter\_RESTAPI\_FS\_2020.json** file. Open
+    the file in any Text Editor and copy the code. From the menu in the
+    top right-hand corner, select **Import Clipboard** and paste the
+    code. Click the **import** button. You should see 3 tabs, as shown
+    below:
 
 ![A screenshot of a social media post Description automatically
+generated](./media/image10.png)
+
+16. Create a new tab by clicking the + sign on the top right-hand corner
+    and call the tab **Maximo Meter REST API**:
+
+![A picture containing clock, game Description automatically
+generated](./media/image11.png)
+
+17. Copy the flow from the **Maximo METER API (Ref)** tab and paste the
+    flows into the **Maximo Meter REST API** tab.
+
+18. Open the **IoT PLATFORM** node and click the **Pencil Icon** as
+    shown below:
+
+![A screenshot of a cell phone Description automatically
 generated](./media/image12.png)
 
-16. Click the **Update** button. In the **Device ID** field, enter the
-    name of the device (ex. DBNT).
+19. Enter the credentials to your instance of the IoT Platform that you
+    used in Exercise 4-1 of the lab, Step4. NOTE: URL is
+    \<org-id\>.messaging.internetofthings.ibmcloud.com
 
-17. Click **Done** and then **Deploy** the Node-RED flow. The IoT
+20. Click the **Update** button. Click the checkbox next to the **Device
+    ID** label to edit the Device ID field, enter the name of the device
+    (ex. DBNT). Leave the checkbox unchecked.
+
+21. Click **Done** and then **Deploy** the Node-RED flow. The IoT
     PLATFORM node should now say connected. If not, check the
     credentials or notify the lab instructor.
 
-18. Open the **Build METER REST API URL** node. Follow the instructions
-    outlined in the node and replace the appropriate variables.
+22. Open the **Build METER REST API URL** node. Follow the instructions
+    outlined in the node and replace the appropriate variables. For your
+    convenience, all of the configurable variables have been placed at
+    the beginning of the node.
 
-l![A screenshot of a social media post Description automatically
+![A screenshot of a social media post Description automatically
 generated](./media/image13.png)
 
-19. Repeat **Step 8** for the **Evaluate METER & Build REST API URL**.
+23. Repeat **Step 8** for the **Evaluate METER & Build REST API URL**.
 
-20. Copy and paste every node after the IoT Platform node and repeat
+24. Copy and paste every node after the IoT Platform node and repeat
     **Steps 8 & 9** for any additional meters. The Node-RED flow should
     look similar to the one shown on the following page. NOTE: Turn on
     the **Debug** nodes and confirm that values are being posted to
-    Maximo (400 = Successful. 200 = Failed).
+    Maximo (400 = Successful. 200 = Failed).![A screenshot of a social
+    media post Description automatically generated](./media/image14.png)
 
-![A screenshot of a social media post Description automatically
-generated](./media/image14.png)
-
-21. You are now finished with **Exercise 4-2**. You’ve successfully
+25. You are now finished with **Exercise 4-2**. You’ve successfully
     posted sensor readings to Maximo in the form of meters. If you
     haven’t already noticed, the throttle node is meant to simulate
     normal operating data at the desired rate. The Evaluate METER node
     is meant to send only data points that exceed the thresholds. In the
     following exercise, you will view your sensors readings in the
     HEALTH UI from the perspective of the Reliability Engineer.
+    Exercise– Using HEALTH
