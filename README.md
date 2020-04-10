@@ -9,7 +9,7 @@ traffic.
 **If you do not have an instance of Node-RED available, create one
 directly using the following button:**
 
-[![Deploy to IBM Cloud](https://cloud.ibm.com/devops/setup/deploy/button.png)](https://bluemix.net/deploy?repository=https://github.com/mbenav3/ibm-iotp-maximo-node-red/tree/master/app)
+[![Deploy to IBM Cloud](https://cloud.ibm.com/devops/setup/deploy/button.png)](https://bluemix.net/deploy?repository=https://github.com/mbenav3/ibm-iotp-maximo-node-red)
 
 Note: This repository will create an instance of Node-RED with the following nodes:  
 - **[IBM Watson IoT Platform Node-RED node](https://flows.nodered.org/node/node-red-contrib-scx-ibmiotapp)**
@@ -80,7 +80,7 @@ generated](./media/image8.png)
 ![A screenshot of a social media post Description automatically
 generated](./media/image9.png)
 
-13. Copy the contents of the **[IoT Platform to Maximo JSON file](https://github.com/mbenav3/ibm-iotp-maximo-node-red/blob/master/IoT_platform_to_maximo.json)** file. 
+13. Copy the contents of the **[IoT Platform to Maximo JSON file](https://github.com/mbenav3/ibm-iotp-maximo-node-red/blob/master/ref/IoT_platform_to_maximo.json)** file. 
 
 
 14. Navigate back to your Node-RED application and click on the menu button on the
