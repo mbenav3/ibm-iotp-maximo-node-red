@@ -80,15 +80,12 @@ generated](./media/image8.png)
 ![A screenshot of a social media post Description automatically
 generated](./media/image9.png)
 
-13. Navigate to an instance of Node-RED.
+13. Copy the contents of the **[IoT Platform to Maximo JSON file](https://github.com/mbenav3/ibm-iotp-maximo-node-red/blob/master/IoT_platform_to_maximo.json)** file. 
 
-14. Download the the IoT_platform_to_maximo
 
-15. Download the **[IoT Platform to Maximo JSON file](https://flows.nodered.org/node/node-red-contrib-scx-ibmiotapp)** file. Open
-    the file in any Text Editor and copy the code. From the menu in the
-    top right-hand corner, select **Import Clipboard** and paste the
-    code. Click the **import** button. You should see 3 tabs, as shown
-    below:
+14. Navigate back to your Node-RED application and click on the menu button on the
+    top right-hand corner. Select **Import** and on the **Clipboard** tab, paste the
+    json object you copied in the previous step. Finally, click the **import** button. You should see 3 tabs, as shown below:
 
 ![A screenshot of a social media post Description automatically
 generated](./media/image10.png)
