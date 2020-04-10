@@ -9,7 +9,7 @@ traffic.
 **If you do not have an instance of Node-RED available, create one
 directly using the following button:**
 
-[![Deploy to IBM Cloud](https://cloud.ibm.com/devops/setup/deploy/button.png)](https://bluemix.net/deploy?repository=https://github.com/mbenav3/ibm-iotp-maximo-node-red/app)
+[![Deploy to IBM Cloud](https://cloud.ibm.com/devops/setup/deploy/button.png)](https://bluemix.net/deploy?repository=https://github.com/mbenav3/ibm-iotp-maximo-node-red/tree/master/app)
 
 Note: This repository will create an instance of Node-RED with the following nodes:  
 - **[IBM Watson IoT Platform Node-RED node](https://flows.nodered.org/node/node-red-contrib-scx-ibmiotapp)**
